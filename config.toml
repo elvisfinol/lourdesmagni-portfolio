@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://elvisfinol.github.io/lourdesmagni-portfolio/"
 languageCode = "en-us"
 title = "Lourdes Magni"
 theme = "influencer-hugo"

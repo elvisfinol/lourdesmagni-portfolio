@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lourdes Magni</title>
-    <link>/categories/</link>
+    <link>https://elvisfinol.github.io/lourdesmagni-portfolio/categories/</link>
     <description>Recent content in Categories on Lourdes Magni</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://elvisfinol.github.io/lourdesmagni-portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
