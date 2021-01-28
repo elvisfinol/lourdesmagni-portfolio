@@ -185,7 +185,7 @@ author:
   enable : true
   image : "images/about/home-1.JPG"
   name : "Lourdes Magni"
-  designation : "Facilitadora "
+  designation : "Facilitadora"
   content : "
   Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
 
@@ -193,7 +193,7 @@ author:
   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
 
   # signature
-  signature : "images/about/2.png"
+  # signature : "images/about/2.png"
 
 
 ################################ Awards #####################################
