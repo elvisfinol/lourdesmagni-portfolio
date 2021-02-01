@@ -128,3 +128,49 @@
     background: $light;
     padding: 30px 0px;
 }
+
+
+/*************************************************************************************/
+
+@import url(https://use.fontawesome.com/releases/v5.15.2/css/all.css);
+
+/* social */
+[class*="social-"]:before {
+    font-family: "entypo", sans-serif;
+}
+
+#sticky-social {
+    position: fixed;
+    z-index: 1;
+    // display: flex;
+    // right: 0;
+    // position: absolute;
+    top: 20;
+    left: 0;
+}
+
+#sticky-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sticky-social a {
+    background: #333;
+    color: #fff;
+    display: block;
+    height: 55px;
+    font: 20px "Open Sans", sans-serif;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+
+#sticky-social a[class*="facebook"] {
+    background: #53a7f5;
+}
+
+#sticky-social a[class*="facebook"]:hover {
+    background: #3b5998;
+}
