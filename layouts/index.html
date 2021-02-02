@@ -21,11 +21,10 @@
         </button> -->
 
         <!--Sticky Social Bar-->
-
         <aside id="sticky-social">
           <ul>
             <li>
-              <a href="https://api.whatsapp.com/send?phone=+5492616557459" class="socila-facebook" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=+5492616557459" class="socila-whatsapp" target="_blank">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </li>
@@ -35,7 +34,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/lourdesmagni/" class="socila-facebook" target="_blank">
+              <a href="https://www.instagram.com/lourdesmagni/" class="socila-instagram" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
@@ -113,7 +112,7 @@
       {{ range .serviceItem }}
       <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
         <div class="service-block mb-4 mb-lg-0">
-          <i class="{{ .icon }} text-danger"></i>
+          <i class="{{ .icon }}"></i>
           <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
           <p class="mb-0">{{ .content | markdownify }}</p>
         </div>
@@ -123,9 +122,6 @@
   </div>
 </section>
 {{ end }}
-<!-- Quotes -->
-<script src="/themes/Influencer-hugo/assets/js/quotes.js"></script>
-
 {{ end }}
 
 <!-- Quote -->
@@ -374,14 +370,14 @@
       {{ end }}
     </div>
     <div class="text-center mt-5">
-      <a href="/blog" class="btn btn-main">All Post</a>
+      <a href="blog" class="btn btn-main">All Post</a>
     </div>
   </div>
 </section>
 {{ end }}
 
 <!-- Contact -->
-{{ if .Site.Data.homepage.contact.enable }}
+<!-- {{ if .Site.Data.homepage.contact.enable }}
 {{ with .Site.Data.homepage.contact }}
 <section class="section contact bg-grey" id="contact">
   <div class="container">
@@ -410,6 +406,6 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 
 {{ end }}

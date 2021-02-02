@@ -15,7 +15,7 @@ paginate = 6
   [[params.plugins.css]]
   URL = "plugins/slick/slick.css"
   [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
+  baseURL = "https://use.fontawesome.com/releases/v5.15.2/css/all.css"
   [[params.plugins.css]]
   URL = "plugins/fontawesome-free-5.15.2-web/fontawesome.min"
   [[params.plugins.css]]
@@ -48,17 +48,12 @@ paginate = 6
   [[menu.main]]
   name = "Servicios"
   URL = "service"
-  weight = 3
-
-  [[menu.main]]
-  name = "Talleres"
-  URL = "talleres"
-  weight = 4
+  weight = 2
   
   [[menu.main]]
   name = "Testimonios"
   URL = "review"
-  weight = 5
+  weight = 3
   
   # [[menu.main]]
   # name = "Author"
@@ -68,17 +63,17 @@ paginate = 6
   [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 6
+  weight = 4
+
+  [[menu.main]]
+  name = "Talleres"
+  URL = "talleres"
+  weight = 5
 
   [[menu.main]]
   name = "Prensa"
   URL = "prensa"
-  weight = 7
-  
-  [[menu.main]]
-  name = "Contacto"
-  URL = "contact"
-  weight = 8
+  weight = 6
 
 
 #################### default parameters ################################

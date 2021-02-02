@@ -142,11 +142,9 @@
 #sticky-social {
     position: fixed;
     z-index: 1;
-    // display: flex;
-    // right: 0;
-    // position: absolute;
-    top: 20;
-    left: 0;
+    margin-top: 250px;
+    top: 0;
+    right: 0;
 }
 
 #sticky-social ul {
@@ -168,9 +166,25 @@
 }
 
 #sticky-social a[class*="facebook"] {
-    background: #53a7f5;
+    background: #3b5998;
 }
 
 #sticky-social a[class*="facebook"]:hover {
-    background: #3b5998;
+    background: #5e91ff;
+}
+
+#sticky-social a[class*="whatsapp"] {
+    background: #00bb2d;
+}
+
+#sticky-social a[class*="whatsapp"]:hover {
+    background: #01f33a;
+}
+
+#sticky-social a[class*="instagram"] {
+    background: #b24ef5;
+}
+
+#sticky-social a[class*="instagram"]:hover {
+    background: #833AB4;
 }
